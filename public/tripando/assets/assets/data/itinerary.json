@@ -1,0 +1,626 @@
+{
+  "trip": {
+    "title": "Córdoba → Escocia 2026",
+    "subtitle": "Aventura familiar por Europa",
+    "startDate": "2026-05-31",
+    "endDate": "2026-06-19",
+    "totalDays": 20,
+    "travelers": [
+      { "name": "Agustín Sampietro", "role": "Adulto", "initials": "AS" },
+      { "name": "Natali Ciappini", "role": "Adulto", "initials": "NC" },
+      { "name": "Allegra Sampietro Ciappini", "role": "Infante", "initials": "A" }
+    ],
+    "destinations": [
+      {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "emoji": "🇦🇷",
+        "color": "#75AADB",
+        "description": "Capital cosmopolita argentina. Mezcla de cafés porteños, tango y arquitectura europea. Base de paso al inicio y al fin del viaje.",
+        "tagline": "Café, tango y empanadas",
+        "currency": "ARS",
+        "language": "Español",
+        "plug": "Tipo I (220V)",
+        "timezone": "GMT-3",
+        "transport": "SUBTE + Cabify/Uber. Tarjeta SUBE recomendada.",
+        "tips": [
+          "Llevar pesos en efectivo: muchos lugares aún prefieren cash.",
+          "Recoleta es seguro y caminable, ideal con bebés.",
+          "El Aeroparque (AEP) está a 15 min del barrio."
+        ],
+        "attractions": [
+          { "name": "Cementerio de la Recoleta", "description": "Necrópolis emblemática con la tumba de Eva Perón. Imperdible.", "category": "Cultura" },
+          { "name": "El Ateneo Grand Splendid", "description": "Una de las librerías más bellas del mundo, en un viejo teatro restaurado.", "category": "Cultura" },
+          { "name": "Museo Nacional de Bellas Artes", "description": "Mayor colección de arte argentino y obras de Goya, Rodin y El Greco. Entrada gratis.", "category": "Museo" },
+          { "name": "Centro Cultural Recoleta", "description": "Arte contemporáneo y muestras gratuitas al lado del cementerio.", "category": "Cultura" },
+          { "name": "Plaza Francia", "description": "Feria de artesanos los fines de semana. Verde y familiar.", "category": "Parque" },
+          { "name": "Floralis Genérica", "description": "Escultura monumental de acero que abre y cierra sus pétalos. Foto obligada.", "category": "Paseo" }
+        ],
+        "food": [
+          { "name": "La Biela", "description": "Café icónico frente al cementerio. Medialunas y atmósfera porteña.", "type": "Café" },
+          { "name": "El Sanjuanino", "description": "Empanadas y tamales del norte argentino. Económico y familiar.", "type": "Tradicional" },
+          { "name": "Fervor", "description": "Parrilla clásica con cortes premium en pleno Recoleta.", "type": "Parrilla" },
+          { "name": "Sottovoce", "description": "Italiana familiar, pastas caseras. Buena para ir con bebés.", "type": "Italiana" },
+          { "name": "Aramburu", "description": "Dos estrellas Michelin. Cocina de autor experimental (reservar con tiempo).", "type": "Fine dining" },
+          { "name": "Croque Madame", "description": "Brunch en el jardín del Palais de Glace. Espacio amplio para cochecitos.", "type": "Brunch" }
+        ],
+        "activities": [
+          { "name": "Caminar por Recoleta y Palermo", "description": "Pasear por Avenida Alvear y luego cruzar a Palermo Soho." },
+          { "name": "Show de tango", "description": "El típico Café de los Angelitos o Esquina Carlos Gardel ofrecen cena+show." },
+          { "name": "Mercado de Pulgas", "description": "Antigüedades y vintage en Dorrego, Colegiales." }
+        ]
+      },
+      {
+        "city": "Londres",
+        "country": "Reino Unido",
+        "emoji": "🇬🇧",
+        "color": "#012169",
+        "description": "Capital del Reino Unido. Museos gratuitos, parques inmensos y mucha movida en junio. La ciudad es muy amigable con bebés.",
+        "tagline": "Museos, parques y mercados",
+        "currency": "GBP",
+        "language": "Inglés",
+        "plug": "Tipo G (230V)",
+        "timezone": "GMT+1 (BST)",
+        "transport": "Tube + buses dobles. Pagar con tarjeta contactless o Oyster.",
+        "tips": [
+          "Niños menores de 11 viajan gratis en el metro acompañados.",
+          "El clima en junio es templado pero llevar campera siempre.",
+          "Field Road (Hammersmith) tiene la línea Piccadilly y District."
+        ],
+        "attractions": [
+          { "name": "Hyde Park y Kensington Gardens", "description": "Más de 350 hectáreas verdes. Boat lake, playground Diana Memorial.", "category": "Parque" },
+          { "name": "Museo de Historia Natural", "description": "Dinosaurios, ballena azul y entrada gratis. Ideal con peques.", "category": "Museo" },
+          { "name": "London Zoo (Regent's Park)", "description": "Zoológico más antiguo del mundo dedicado a investigación científica.", "category": "Familia" },
+          { "name": "Tate Modern", "description": "Arte contemporáneo en la antigua central eléctrica. Gratis.", "category": "Museo" },
+          { "name": "Borough Market", "description": "Mercado gourmet bajo London Bridge. Quesos, ostras, food trucks.", "category": "Gastronomía" },
+          { "name": "Tower of London", "description": "Castillo medieval con las Joyas de la Corona.", "category": "Histórico" },
+          { "name": "Covent Garden", "description": "Artistas callejeros, tiendas y restaurantes en un mercado victoriano cubierto.", "category": "Paseo" }
+        ],
+        "food": [
+          { "name": "Giraffe", "description": "Cadena familiar con cocina internacional. Tienen menu infantil y trona.", "type": "Familiar" },
+          { "name": "Burro e Salvia", "description": "Pastas frescas hechas a mano frente a vos. Cálido y casual.", "type": "Italiana" },
+          { "name": "Dishoom", "description": "Indo-Londinense de culto. El bacon naan roll es legendario.", "type": "Indio" },
+          { "name": "All-Star Lanes Bayswater", "description": "Bowling + diner americano. Ideal para arrancar el día con la peque.", "type": "Diversión" },
+          { "name": "Fallow St James's", "description": "Sostenible, kids menu y excelentes proteínas. Reservar.", "type": "Modern British" },
+          { "name": "Ottolenghi", "description": "Mediterráneo creativo, deli para llevar al parque.", "type": "Deli" }
+        ],
+        "activities": [
+          { "name": "West End Live (Trafalgar Square)", "description": "Festival gratuito de teatro musical al aire libre en junio." },
+          { "name": "Taste of London", "description": "Junio 17-21 en Regent's Park. Festival gastronómico con chefs top." },
+          { "name": "Great Exhibition Road Festival", "description": "Tres días de ciencia y arte gratis cerca del Natural History Museum." },
+          { "name": "Crucero por el Támesis", "description": "Westminster a Greenwich. Bonito al atardecer." },
+          { "name": "Lidos al aire libre", "description": "Si hace calor: Hampstead Heath ponds o Serpentine Lido en Hyde Park." }
+        ]
+      },
+      {
+        "city": "Perth",
+        "country": "Escocia",
+        "emoji": "🏴",
+        "color": "#005EB8",
+        "description": "Pequeña ciudad histórica a orillas del Río Tay. Antigua capital de Escocia, conocida como 'la puerta a las Highlands'.",
+        "tagline": "Puerta a las Highlands",
+        "currency": "GBP",
+        "language": "Inglés (acento escocés)",
+        "plug": "Tipo G (230V)",
+        "timezone": "GMT+1 (BST)",
+        "transport": "Caminata + bus local. Renta de auto recomendada para explorar.",
+        "tips": [
+          "Junio tiene 17h de luz. Aprovechar las tardes largas.",
+          "Llevar siempre campera impermeable, el clima cambia rápido.",
+          "Perth se ganó el premio 'Scotland's Food Town' en 2018."
+        ],
+        "attractions": [
+          { "name": "Perth Museum", "description": "Reabrió en 2024 tras £26.5M de renovación. Alberga la Piedra del Destino.", "category": "Museo" },
+          { "name": "Scone Palace", "description": "Lugar de coronación de reyes escoceses (Macbeth, Robert the Bruce, Carlos II).", "category": "Histórico" },
+          { "name": "Black Watch Museum (Balhousie Castle)", "description": "Historia del regimiento escocés del Black Watch.", "category": "Museo" },
+          { "name": "Kinnoull Hill Woodland Park", "description": "Caminata corta con vistas panorámicas del Tay y Highlands.", "category": "Naturaleza" },
+          { "name": "Riverside Walks Río Tay", "description": "Paseo por la ribera, perfecto para cochecito.", "category": "Naturaleza" },
+          { "name": "Branklyn Garden", "description": "Pequeño jardín considerado 'el mejor de su tamaño en GB'.", "category": "Jardín" },
+          { "name": "Quarrymill Woodland Park", "description": "Bosque con senderos accesibles, juegos y picnic." , "category": "Familia" }
+        ],
+        "food": [
+          { "name": "63 Tay Street", "description": "Restaurante insignia del chef Graeme Pallister. Menú degustación de 5 pasos con productos locales.", "type": "Fine dining" },
+          { "name": "The Old Ship Inn", "description": "Pub más antiguo de Perth (desde 1665). Comida tradicional escocesa.", "type": "Pub" },
+          { "name": "Cardo Restaurant", "description": "Bistró moderno con énfasis en ingredientes locales.", "type": "Moderno" },
+          { "name": "Glenturret Lalique", "description": "Restaurante con estrella Michelin en la destilería más antigua de Escocia. A 30 min.", "type": "Fine dining" },
+          { "name": "Effie's Tea Room", "description": "Té de la tarde tradicional escocés. Scones imperdibles.", "type": "Tea room" },
+          { "name": "Hinterland", "description": "Cafetería de especialidad con buenos brunches.", "type": "Café" }
+        ],
+        "activities": [
+          { "name": "Excursión a Loch Tay y Killin", "description": "1h en auto. Lago precioso y cascadas de Dochart." },
+          { "name": "Visitar destilería Glenturret", "description": "La más antigua de Escocia (1763). Tour + tasting." },
+          { "name": "Pitlochry y Queen's View", "description": "40 min al norte. Pueblo pintoresco con vista icónica." },
+          { "name": "Dunkeld y Birnam", "description": "20 min. Catedral y bosque que inspiró a Beatrix Potter." },
+          { "name": "St Andrews", "description": "1h al este. Cuna del golf y casco histórico con catedral en ruinas." }
+        ]
+      },
+      {
+        "city": "Copenhague",
+        "country": "Dinamarca",
+        "emoji": "🇩🇰",
+        "color": "#C8102E",
+        "description": "Capital danesa, sinónimo de diseño, bicicletas y hygge. Caminable, súper limpia y amigable con bebés.",
+        "tagline": "Diseño, bicis y hygge",
+        "currency": "DKK",
+        "language": "Danés (todos hablan inglés)",
+        "plug": "Tipo K (230V)",
+        "timezone": "GMT+2 (CEST)",
+        "transport": "Metro 24/7, bicis públicas y caminata. Del aeropuerto al centro: 14 min en metro.",
+        "tips": [
+          "Es de las ciudades más caras de Europa, presupuestar bien.",
+          "Casi todos los museos tienen un día con entrada gratis.",
+          "Pagar con tarjeta en todos lados — apenas se usa efectivo."
+        ],
+        "attractions": [
+          { "name": "Tivoli Gardens", "description": "Segundo parque de atracciones más antiguo del mundo (1843). 4M+ visitantes al año.", "category": "Parque" },
+          { "name": "Nyhavn", "description": "Puerto pintoresco de casas coloridas. Postal de la ciudad.", "category": "Paseo" },
+          { "name": "Vor Frelsers Kirke (Iglesia del Salvador)", "description": "400 escalones por una espiral exterior hacia el campanario.", "category": "Histórico" },
+          { "name": "Palacio de Amalienborg", "description": "Residencia real, ver el cambio de guardia al mediodía.", "category": "Histórico" },
+          { "name": "Christiania", "description": "Comuna autoproclamada autónoma. Arte callejero y ambiente alternativo.", "category": "Cultura" },
+          { "name": "La Sirenita", "description": "Estatua icónica de bronce, foto rápida en el paseo costero.", "category": "Símbolo" },
+          { "name": "Rosenborg Slot", "description": "Castillo renacentista con las joyas de la corona danesa.", "category": "Histórico" }
+        ],
+        "food": [
+          { "name": "Aamanns", "description": "Smørrebrød moderno (sándwiches abiertos), técnica refinada y producto local.", "type": "Danés clásico" },
+          { "name": "Schønnemann", "description": "Institución desde 1877. Smørrebrød tradicional con akvavit.", "type": "Danés clásico" },
+          { "name": "Reffen Street Food", "description": "Mercado gastronómico al aire libre, mains desde 70 DKK. Vista al puerto.", "type": "Casual" },
+          { "name": "Hija de Sanchez", "description": "Tacos mexicanos de la chef Rosio Sanchez (ex-Noma). Imperdible.", "type": "Mexicano" },
+          { "name": "Bæst", "description": "Pizza napolitana wood-fired del chef Christian Puglisi (ex-Noma). Mozarella propia.", "type": "Italiana" },
+          { "name": "Torvehallerne", "description": "Mercado cubierto con 60 puestos. Brunch + café de especialidad.", "type": "Mercado" }
+        ],
+        "activities": [
+          { "name": "Tour en canal", "description": "1h por los canales con narración en inglés. Sale de Nyhavn." },
+          { "name": "Alquilar bicicleta", "description": "La ciudad está diseñada para bici. Probar el sistema 'Bycyklen'." },
+          { "name": "Subir Christiansborg Tower", "description": "Mejor vista panorámica de la ciudad. Gratis." },
+          { "name": "Día en Tivoli", "description": "Atracciones, jardines y restaurantes. Encanto retro." },
+          { "name": "Día en Malmö (Suecia)", "description": "30 min en tren cruzando el puente. Pasaporte!" }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "f1",
+      "date": "2026-05-31",
+      "time": "23:01",
+      "type": "flight",
+      "title": "Córdoba → Buenos Aires",
+      "subtitle": "JetSmart · Vuelo JA3115",
+      "icon": "flight_takeoff",
+      "color": "#FF6B35",
+      "details": {
+        "airline": "JetSmart",
+        "flightNumber": "JA3115",
+        "reservation": "A56PFS",
+        "origin": { "city": "Córdoba", "code": "COR", "time": "23:01", "date": "2026-05-31" },
+        "destination": { "city": "Buenos Aires", "code": "AEP", "airport": "Aeroparque", "time": "00:19", "date": "2026-06-01" },
+        "type": "Directo",
+        "passengers": [
+          { "name": "Agustín Sampietro", "total": "$196.542,01", "fare": "$78.975,00", "extras": "Equipaje bodega, asiento 1E" },
+          { "name": "Natali Ciappini", "total": "$146.927,51", "fare": "$78.975,00", "extras": "Asiento 1F" },
+          { "name": "Allegra Sampietro Ciappini", "total": "$0", "fare": "Infante" }
+        ],
+        "totalPrice": "$343.469 ARS",
+        "paymentNote": "Pagó Natali con Naranja X"
+      }
+    },
+    {
+      "id": "a1",
+      "date": "2026-05-31",
+      "time": "Check-in 14:00",
+      "type": "accommodation",
+      "title": "Up Recoleta Hotel",
+      "subtitle": "Buenos Aires · 1 noche",
+      "icon": "hotel",
+      "color": "#75AADB",
+      "details": {
+        "name": "Up Recoleta Hotel",
+        "stars": 3,
+        "address": "Jose Leon Pagano 2684, Recoleta, 1406 Buenos Aires, Argentina",
+        "phone": "+54 9 11 3214 1301",
+        "checkIn": "2026-05-31 14:00",
+        "checkOut": "2026-06-01 11:00",
+        "nights": 1,
+        "guests": 2,
+        "confirmationNumber": "6867.178.258",
+        "pin": "9871",
+        "price": "US$58,81",
+        "paymentNote": "$81.844 reservó Agus. Se paga en alojamiento",
+        "room": "Habitación Doble - 1 o 2 camas",
+        "gps": { "lat": -34.583883, "lng": -58.399767 },
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=-34.583883,-58.399767",
+        "bookingUrl": "https://www.booking.com",
+        "notes": "Hora estimada de llegada: 00:00-01:00 del lunes",
+        "amenities": ["WiFi gratis", "Aire acondicionado", "Caja fuerte", "Netflix", "TV", "Heladera"]
+      }
+    },
+    {
+      "id": "f2",
+      "date": "2026-06-01",
+      "time": "15:05",
+      "type": "flight",
+      "title": "Buenos Aires → Londres",
+      "subtitle": "KLM · Vía Ámsterdam",
+      "icon": "flight",
+      "color": "#00A1DE",
+      "details": {
+        "airline": "KLM",
+        "reservation": "XXT6UL",
+        "segments": [
+          {
+            "flightNumber": "KL702",
+            "aircraft": "Boeing 777-200",
+            "origin": { "city": "Buenos Aires", "code": "EZE", "airport": "Ezeiza Ministro Pistarini", "time": "15:05", "date": "2026-06-01" },
+            "destination": { "city": "Ámsterdam", "code": "AMS", "airport": "Schiphol", "time": "09:10", "date": "2026-06-02" },
+            "duration": "13h 05m",
+            "class": "Economy Class",
+            "seats": { "AS": "17D", "NC": "17E" }
+          },
+          {
+            "flightNumber": "KL1009",
+            "aircraft": "Embraer 195 E2",
+            "operator": "KLM Cityhopper",
+            "origin": { "city": "Ámsterdam", "code": "AMS", "time": "13:25", "date": "2026-06-02" },
+            "destination": { "city": "Londres", "code": "LHR", "airport": "Heathrow", "time": "13:50", "date": "2026-06-02" },
+            "duration": "1h 25m",
+            "class": "Economy Class",
+            "seats": { "AS": "7D", "NC": "7F" },
+            "layover": "4h 15m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a2",
+      "date": "2026-06-02",
+      "time": "Check-in 15:00",
+      "type": "accommodation",
+      "title": "Airbnb Londres",
+      "subtitle": "Field Road · 5 noches",
+      "icon": "house",
+      "color": "#FF5A5F",
+      "details": {
+        "name": "Airbnb Londres",
+        "host": "Melissa McCoy",
+        "address": "Field Road, Greater London, England W6 8HS",
+        "checkIn": "2026-06-02 15:00",
+        "checkOut": "2026-06-07 11:00",
+        "nights": 5,
+        "guests": "2 adultos + 1 infante",
+        "confirmationNumber": "HMA383C9W2",
+        "price": "$949,63 USD",
+        "paymentNote": "Reservó Agus, paga el 20 de mayo",
+        "gps": { "lat": 51.486544, "lng": -0.2132889 },
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=51.486544,-0.2132889",
+        "bookingUrl": "https://www.airbnb.com/rooms/889685160118432102",
+        "rules": [
+          "Check-in self con caja de seguridad después de las 15:00",
+          "Checkout antes de las 11:00",
+          "Máximo 4 huéspedes",
+          "Sin mascotas",
+          "Horario silencio 21:00 - 8:00",
+          "Sin fiestas ni eventos",
+          "No fumar"
+        ],
+        "checkoutTasks": [
+          "Juntar toallas usadas",
+          "Tirar la basura",
+          "Apagar todo",
+          "Cerrar con llave",
+          "Devolver las llaves"
+        ]
+      }
+    },
+    {
+      "id": "t1",
+      "date": "2026-06-07",
+      "time": "Día completo",
+      "type": "transport",
+      "title": "Tren Londres → Perth",
+      "subtitle": "Vía Edimburgo · LNER + ScotRail",
+      "icon": "train",
+      "color": "#4A90E2",
+      "details": {
+        "transport": "Tren",
+        "operator": "LNER + ScotRail",
+        "totalDuration": "~7h 30m",
+        "origin": { "city": "Londres", "station": "King's Cross", "code": "KGX" },
+        "via": { "city": "Edimburgo", "station": "Edinburgh Waverley", "code": "EDB" },
+        "destination": { "city": "Perth", "station": "Perth Station", "code": "PTH" },
+        "segments": [
+          {
+            "label": "Londres → Edimburgo",
+            "operator": "LNER (London North Eastern Railway)",
+            "from": "London King's Cross",
+            "to": "Edinburgh Waverley",
+            "duration": "~4h 20m",
+            "price": "$173 USD",
+            "frequency": "Aprox. 1 tren por hora",
+            "notes": "Trenes Azuma de alta velocidad. Reservar asientos con antelación recomendado."
+          },
+          {
+            "label": "Edimburgo → Perth",
+            "operator": "ScotRail",
+            "from": "Edinburgh Waverley",
+            "to": "Perth",
+            "duration": "~1h 30m",
+            "price": "$30 USD",
+            "frequency": "Cada hora aproximadamente",
+            "notes": "Conexión directa con vista al Forth Bridge."
+          }
+        ],
+        "alternativeOption": {
+          "name": "Caledonian Sleeper (Highland)",
+          "description": "Tren nocturno con cabinas privadas. Sale de London Euston ~21:15 (21:00 domingo), llega a Perth ~05:00. Splita en Edimburgo a las 04:30.",
+          "note": "Buena opción para ahorrar una noche de hotel."
+        },
+        "tips": [
+          "Sacar pasajes con anticipación en lner.co.uk o trainline.com.",
+          "Children's railcard si lleva niños.",
+          "Cochecito plegable cabe perfecto en los racks."
+        ]
+      }
+    },
+    {
+      "id": "a3",
+      "date": "2026-06-07",
+      "time": "Llegada",
+      "type": "accommodation",
+      "title": "Casa Meli - Perth",
+      "subtitle": "Escocia · 7 noches",
+      "icon": "house",
+      "color": "#005EB8",
+      "details": {
+        "name": "Casa Meli",
+        "address": "9 Duff Street, Bertha Park, Perth - PH1 0AE",
+        "checkIn": "2026-06-07",
+        "checkOut": "2026-06-14",
+        "nights": 7,
+        "gps": { "lat": 56.4238165, "lng": -3.4926558 },
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=56.4238165,-3.4926558",
+        "notes": "Estadía con Meli en Perth, Escocia"
+      }
+    },
+    {
+      "id": "t2",
+      "date": "2026-06-14",
+      "time": "05:16",
+      "type": "transport",
+      "title": "Tren Perth → Edimburgo",
+      "subtitle": "ScotRail · Hacia el aeropuerto",
+      "icon": "train",
+      "color": "#4A90E2",
+      "details": {
+        "transport": "Tren",
+        "operator": "ScotRail",
+        "from": "Perth Station",
+        "to": "Edinburgh Waverley",
+        "departure": "05:16",
+        "arrival": "06:50",
+        "duration": "~1h 34m",
+        "price": "$30 USD",
+        "frequency": "Hasta 50 trenes por día",
+        "notes": "Primer tren temprano del día. Llegar 15 min antes. Luego tomar tram o taxi al aeropuerto EDI (~30 min).",
+        "tips": [
+          "Sacar pasaje en scotrail.co.uk anticipado.",
+          "Asientos numerados no requeridos en este tramo.",
+          "En Edimburgo Waverley conectar con tram al aeropuerto."
+        ]
+      }
+    },
+    {
+      "id": "f3",
+      "date": "2026-06-14",
+      "time": "13:50",
+      "type": "flight",
+      "title": "Edimburgo → Copenhague",
+      "subtitle": "Ryanair · FR3760",
+      "icon": "flight",
+      "color": "#073590",
+      "details": {
+        "airline": "Ryanair",
+        "flightNumber": "FR3760",
+        "reservation": "O4335A",
+        "origin": { "city": "Edimburgo", "code": "EDI", "time": "13:50", "date": "2026-06-14" },
+        "destination": { "city": "Copenhague", "code": "CPH", "time": "16:45", "date": "2026-06-14" },
+        "duration": "1h 55m",
+        "passengers": [
+          { "name": "Agustín Sampietro + Infante", "seat": "07F", "bags": "Priority & 2 Cabin Bags" },
+          { "name": "Natali Ciappini", "seat": "07E", "bags": "Priority & 2 Cabin Bags + 20kg Check-in" }
+        ],
+        "price": "$284 USD",
+        "paymentNote": "Pagó Agus por Mercado Pago, Nati transfirió dólares"
+      }
+    },
+    {
+      "id": "a4",
+      "date": "2026-06-14",
+      "time": "Check-in 15:00",
+      "type": "accommodation",
+      "title": "Airbnb Copenhague",
+      "subtitle": "Nansensgade · 2 noches",
+      "icon": "house",
+      "color": "#C8102E",
+      "details": {
+        "name": "Airbnb Copenhague",
+        "host": "Flemming",
+        "address": "Nansensgade 75A, Copenhagen, 1366",
+        "checkIn": "2026-06-14 15:00",
+        "checkOut": "2026-06-16 12:00",
+        "nights": 2,
+        "guests": "2 adultos + 1 infante",
+        "confirmationNumber": "HMFNHXC4E8",
+        "price": "$355 USD",
+        "paymentNote": "Reservado con tarjeta de Agus, se paga en el lugar",
+        "gps": { "lat": 55.68586349487305, "lng": 12.567293167114258 },
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=55.685863,12.567293",
+        "bookingUrl": "https://www.airbnb.com/rooms/52024108",
+        "directions": "El Metro va del aeropuerto a Nørreport station (14 min) y luego 5 min caminando.",
+        "rules": [
+          "Check-in después de las 15:00",
+          "Checkout antes de las 12:00",
+          "Máximo 2 huéspedes"
+        ]
+      }
+    },
+    {
+      "id": "f4",
+      "date": "2026-06-16",
+      "time": "15:55",
+      "type": "flight",
+      "title": "Copenhague → Londres",
+      "subtitle": "Ryanair · FR7395",
+      "icon": "flight",
+      "color": "#073590",
+      "details": {
+        "airline": "Ryanair",
+        "flightNumber": "FR7395",
+        "reservation": "AR3VTL",
+        "origin": { "city": "Copenhague", "code": "CPH", "time": "15:55", "date": "2026-06-16" },
+        "destination": { "city": "Londres", "code": "STN", "airport": "Stansted", "time": "16:50", "date": "2026-06-16" },
+        "duration": "1h 55m",
+        "passengers": [
+          { "name": "Agustín Sampietro + Infante", "seat": "07F", "bags": "Priority & 2 Cabin Bags" },
+          { "name": "Natali Ciappini", "seat": "07E", "bags": "Priority & 2 Cabin Bags + 20kg Check-in" }
+        ],
+        "price": "$238,80 USD",
+        "paymentNote": "Pagó Agus por Mercado Pago, Nati transfirió dólares"
+      }
+    },
+    {
+      "id": "a5",
+      "date": "2026-06-16",
+      "time": "Check-in 14:00",
+      "type": "accommodation",
+      "title": "Holiday Inn Express - Heathrow T4",
+      "subtitle": "Londres · 2 noches",
+      "icon": "hotel",
+      "color": "#0072CE",
+      "details": {
+        "name": "Holiday Inn Express - London Heathrow T4 by IHG",
+        "stars": 4,
+        "address": "Terminal 4, 1 Swindon Road, Hillingdon, TW6 3FJ, Reino Unido",
+        "phone": "+44 20 3971 4184",
+        "checkIn": "2026-06-16 14:00",
+        "checkOut": "2026-06-18 11:00",
+        "nights": 2,
+        "guests": 2,
+        "confirmationNumber": "5388.053.859",
+        "pin": "1688",
+        "price": "£271,04 (~€314)",
+        "paymentNote": "$513.000 reservó en Booking con Mastercard Naranja X, se paga en alojamiento",
+        "room": "Habitación doble estándar con desayuno caliente gratuito",
+        "gps": { "lat": 51.459183, "lng": -0.44310 },
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=51.459183,-0.44310",
+        "bookingUrl": "https://www.booking.com/Share-bnuXxZR",
+        "amenities": ["WiFi gratis", "Desayuno incluido", "Aire acondicionado", "TV", "Insonorización"],
+        "notes": "Llegada estimada 17:00-18:00. Solicitar cuna si es posible."
+      }
+    },
+    {
+      "id": "f5",
+      "date": "2026-06-18",
+      "time": "08:55",
+      "type": "flight",
+      "title": "Londres → Buenos Aires",
+      "subtitle": "Air France · Vía París",
+      "icon": "flight",
+      "color": "#002157",
+      "details": {
+        "airline": "Air France",
+        "segments": [
+          {
+            "flightNumber": "AF1681",
+            "aircraft": "Airbus A220-300",
+            "origin": { "city": "Londres", "code": "LHR", "airport": "Heathrow", "time": "08:55", "date": "2026-06-18" },
+            "destination": { "city": "París", "code": "CDG", "airport": "Charles de Gaulle", "time": "11:15", "date": "2026-06-18" },
+            "duration": "1h 20m",
+            "class": "Economy Class",
+            "seats": { "AS": "11A", "NC": "11C" }
+          },
+          {
+            "flightNumber": "AF468",
+            "aircraft": "Boeing 787-9",
+            "origin": { "city": "París", "code": "CDG", "time": "13:25", "date": "2026-06-18" },
+            "destination": { "city": "Buenos Aires", "code": "EZE", "airport": "Ezeiza", "time": "21:50", "date": "2026-06-18" },
+            "duration": "13h 25m",
+            "class": "Economy Class",
+            "seats": { "AS": "15A", "NC": "15B" },
+            "layover": "2h 10m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a6",
+      "date": "2026-06-18",
+      "time": "Noche",
+      "type": "accommodation",
+      "title": "Airbnb Buenos Aires",
+      "subtitle": "Última noche · 1 noche",
+      "icon": "house",
+      "color": "#75AADB",
+      "details": {
+        "name": "Airbnb Buenos Aires",
+        "checkIn": "2026-06-18",
+        "checkOut": "2026-06-19",
+        "nights": 1,
+        "price": "$43,29 USD",
+        "paymentNote": "Pagó Natali. Pendiente de coordinar",
+        "bookingUrl": "https://www.airbnb.com/l/pc6xyZNb"
+      }
+    },
+    {
+      "id": "f6",
+      "date": "2026-06-19",
+      "time": "16:47",
+      "type": "flight",
+      "title": "Buenos Aires → Córdoba",
+      "subtitle": "JetSmart · Vuelo JA3104",
+      "icon": "flight_land",
+      "color": "#FF6B35",
+      "details": {
+        "airline": "JetSmart",
+        "flightNumber": "JA3104",
+        "reservation": "A56PFS",
+        "origin": { "city": "Buenos Aires", "code": "AEP", "airport": "Aeroparque", "time": "16:47", "date": "2026-06-19" },
+        "destination": { "city": "Córdoba", "code": "COR", "time": "18:15", "date": "2026-06-19" },
+        "type": "Directo",
+        "passengers": [
+          { "name": "Agustín Sampietro", "seat": "1E" },
+          { "name": "Natali Ciappini", "seat": "1F" }
+        ],
+        "notes": "Vuelo de retorno a casa"
+      }
+    }
+  ],
+  "expenses": [
+    { "id": "e1", "concept": "Vuelos Córdoba ↔ BsAs (JetSmart)", "category": "flight", "amount": 343469, "currency": "ARS", "paidBy": "Natali", "method": "Naranja X", "status": "paid", "relatedEvent": "f1" },
+    { "id": "e2", "concept": "Hotel Up Recoleta (1 noche)", "category": "accommodation", "amount": 58.81, "currency": "USD", "paidBy": "Agustín", "method": "Reservado, paga en lugar", "status": "pending_onsite", "relatedEvent": "a1" },
+    { "id": "e3", "concept": "Vuelo BsAs → Londres (KLM ida y vuelta)", "category": "flight", "amount": 0, "currency": "USD", "paidBy": "Agustín", "method": "Pago anterior", "status": "paid", "relatedEvent": "f2", "notes": "Tickets ya emitidos" },
+    { "id": "e4", "concept": "Airbnb Londres (5 noches)", "category": "accommodation", "amount": 949.63, "currency": "USD", "paidBy": "Agustín", "method": "Tarjeta, cobro 20 may", "status": "pending", "relatedEvent": "a2" },
+    { "id": "e5", "concept": "Tren Londres → Edimburgo (LNER)", "category": "transport", "amount": 173, "currency": "USD", "paidBy": "—", "method": "Por comprar", "status": "pending", "relatedEvent": "t1" },
+    { "id": "e6", "concept": "Tren Edimburgo → Perth (ScotRail)", "category": "transport", "amount": 30, "currency": "USD", "paidBy": "—", "method": "Por comprar", "status": "pending", "relatedEvent": "t1" },
+    { "id": "e7", "concept": "Tren Perth → Edimburgo (ScotRail)", "category": "transport", "amount": 30, "currency": "USD", "paidBy": "—", "method": "Por comprar", "status": "pending", "relatedEvent": "t2" },
+    { "id": "e8", "concept": "Vuelo Edimburgo → Copenhague (Ryanair)", "category": "flight", "amount": 284, "currency": "USD", "paidBy": "Agustín", "method": "Mercado Pago (Nati transfirió)", "status": "paid", "relatedEvent": "f3" },
+    { "id": "e9", "concept": "Airbnb Copenhague (2 noches)", "category": "accommodation", "amount": 355, "currency": "USD", "paidBy": "Agustín", "method": "Reservado, paga en lugar", "status": "pending_onsite", "relatedEvent": "a4" },
+    { "id": "e10", "concept": "Vuelo Copenhague → Londres (Ryanair)", "category": "flight", "amount": 238.80, "currency": "USD", "paidBy": "Agustín", "method": "Mercado Pago (Nati transfirió)", "status": "paid", "relatedEvent": "f4" },
+    { "id": "e11", "concept": "Holiday Inn Heathrow (2 noches)", "category": "accommodation", "amount": 513000, "currency": "ARS", "paidBy": "Agustín", "method": "Naranja X, paga en lugar", "status": "pending_onsite", "relatedEvent": "a5" },
+    { "id": "e12", "concept": "Airbnb BsAs última noche", "category": "accommodation", "amount": 43.29, "currency": "USD", "paidBy": "Natali", "method": "Por coordinar", "status": "pending", "relatedEvent": "a6" }
+  ],
+  "summary": {
+    "totals": [
+      { "concept": "Vuelo Córdoba-BsAs (JetSmart ida y vuelta)", "amount": "$343.469 ARS", "paid": "Natali / Naranja X" },
+      { "concept": "Hotel Up Recoleta (1 noche)", "amount": "US$58,81", "paid": "Reservó Agus, paga en lugar" },
+      { "concept": "Airbnb Londres (5 noches)", "amount": "$949,63 USD", "paid": "Reservó Agus, paga 20 may" },
+      { "concept": "Tren Londres-Edimburgo", "amount": "$173 USD", "paid": "Pendiente" },
+      { "concept": "Tren Edimburgo-Perth", "amount": "$30 USD", "paid": "Pendiente" },
+      { "concept": "Tren Perth-Edimburgo", "amount": "$30 USD", "paid": "Pendiente" },
+      { "concept": "Vuelo Edimburgo-Copenhague", "amount": "$284 USD", "paid": "Agus (Mercado Pago)" },
+      { "concept": "Airbnb Copenhague (2 noches)", "amount": "$355 USD", "paid": "Reservó Agus, paga en lugar" },
+      { "concept": "Vuelo Copenhague-Londres", "amount": "$238,80 USD", "paid": "Agus (Mercado Pago)" },
+      { "concept": "Holiday Inn Londres (2 noches)", "amount": "$513.000 ARS", "paid": "Reservó con Naranja X, paga en lugar" },
+      { "concept": "Airbnb BsAs (1 noche)", "amount": "$43,29 USD", "paid": "Natali" }
+    ]
+  }
+}
