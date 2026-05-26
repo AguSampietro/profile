@@ -6,9 +6,39 @@
     "endDate": "2026-06-19",
     "totalDays": 20,
     "travelers": [
-      { "name": "Agustín Sampietro", "role": "Adulto", "initials": "AS" },
-      { "name": "Natali Ciappini", "role": "Adulto", "initials": "NC" },
-      { "name": "Allegra Sampietro Ciappini", "role": "Infante", "initials": "A" }
+      {
+        "name": "Agustín Sampietro",
+        "role": "Adulto",
+        "initials": "AS",
+        "eta": {
+          "reference": "2020-0000-4889-5948",
+          "validUntil": "2028-04-08",
+          "passportEnding": "0002"
+        },
+        "passportImage": "assets/images/passport_as.png"
+      },
+      {
+        "name": "Natali Ciappini",
+        "role": "Adulto",
+        "initials": "NC",
+        "eta": {
+          "reference": "2020-0000-4889-6269",
+          "validUntil": "2028-04-08",
+          "passportEnding": "1707"
+        },
+        "passportImage": "assets/images/passport_nc.png"
+      },
+      {
+        "name": "Allegra Sampietro Ciappini",
+        "role": "Infante",
+        "initials": "A",
+        "eta": {
+          "reference": "2020-0000-4889-6530",
+          "validUntil": "2028-04-08",
+          "passportEnding": "7545"
+        },
+        "passportImage": "assets/images/passport_al.png"
+      }
     ],
     "destinations": [
       {
@@ -116,7 +146,7 @@
           { "name": "Kinnoull Hill Woodland Park", "description": "Caminata corta con vistas panorámicas del Tay y Highlands.", "category": "Naturaleza" },
           { "name": "Riverside Walks Río Tay", "description": "Paseo por la ribera, perfecto para cochecito.", "category": "Naturaleza" },
           { "name": "Branklyn Garden", "description": "Pequeño jardín considerado 'el mejor de su tamaño en GB'.", "category": "Jardín" },
-          { "name": "Quarrymill Woodland Park", "description": "Bosque con senderos accesibles, juegos y picnic." , "category": "Familia" }
+          { "name": "Quarrymill Woodland Park", "description": "Bosque con senderos accesibles, juegos y picnic.", "category": "Familia" }
         ],
         "food": [
           { "name": "63 Tay Street", "description": "Restaurante insignia del chef Graeme Pallister. Menú degustación de 5 pasos con productos locales.", "type": "Fine dining" },
@@ -314,50 +344,58 @@
     {
       "id": "t1",
       "date": "2026-06-07",
-      "time": "Día completo",
+      "time": "09:30",
       "type": "transport",
       "title": "Tren Londres → Perth",
-      "subtitle": "Vía Edimburgo · LNER + ScotRail",
+      "subtitle": "LNER + ScotRail · Vía Edimburgo",
       "icon": "train",
       "color": "#4A90E2",
       "details": {
         "transport": "Tren",
         "operator": "LNER + ScotRail",
-        "totalDuration": "~7h 30m",
-        "origin": { "city": "Londres", "station": "King's Cross", "code": "KGX" },
+        "booking": {
+          "platform": "Trainline",
+          "transactionId": "281635617609",
+          "transactionDate": "2026-05-11",
+          "ticketType": "2× Super Off-Peak Single",
+          "cardLast4": "9631",
+          "totalPrice": "$318,32 USD",
+          "status": "CONFIRMADO"
+        },
+        "totalDuration": "5h 35m",
+        "origin": { "city": "Londres", "station": "King's Cross", "code": "KGX", "time": "09:30" },
         "via": { "city": "Edimburgo", "station": "Edinburgh Waverley", "code": "EDB" },
-        "destination": { "city": "Perth", "station": "Perth Station", "code": "PTH" },
+        "destination": { "city": "Perth", "station": "Perth Station", "code": "PTH", "time": "15:05" },
         "segments": [
           {
             "label": "Londres → Edimburgo",
             "operator": "LNER (London North Eastern Railway)",
             "from": "London King's Cross",
             "to": "Edinburgh Waverley",
-            "duration": "~4h 20m",
-            "price": "$173 USD",
-            "frequency": "Aprox. 1 tren por hora",
-            "notes": "Trenes Azuma de alta velocidad. Reservar asientos con antelación recomendado."
+            "departure": "09:30",
+            "arrival": "13:39",
+            "duration": "4h 09m",
+            "seats": [
+              { "traveler": "Agustín", "car": "H", "seat": "68", "position": "Pasillo" },
+              { "traveler": "Natali", "car": "H", "seat": "69", "position": "Pasillo" }
+            ]
           },
           {
             "label": "Edimburgo → Perth",
             "operator": "ScotRail",
             "from": "Edinburgh Waverley",
             "to": "Perth",
-            "duration": "~1h 30m",
-            "price": "$30 USD",
-            "frequency": "Cada hora aproximadamente",
-            "notes": "Conexión directa con vista al Forth Bridge."
+            "departure": "13:53",
+            "arrival": "15:05",
+            "duration": "1h 12m",
+            "transfer": "14 min de transbordo en Edimburgo"
           }
         ],
-        "alternativeOption": {
-          "name": "Caledonian Sleeper (Highland)",
-          "description": "Tren nocturno con cabinas privadas. Sale de London Euston ~21:15 (21:00 domingo), llega a Perth ~05:00. Splita en Edimburgo a las 04:30.",
-          "note": "Buena opción para ahorrar una noche de hotel."
-        },
         "tips": [
-          "Sacar pasajes con anticipación en lner.co.uk o trainline.com.",
-          "Children's railcard si lleva niños.",
-          "Cochecito plegable cabe perfecto en los racks."
+          "Asientos reservados en vagón H (68 y 69) para el tramo LNER.",
+          "En Edimburgo hay 14 min de transbordo — suficiente tiempo.",
+          "Cochecito plegable cabe perfecto en los racks.",
+          "No hace falta mostrar el email de confirmación, solo el pasaporte."
         ]
       }
     },
@@ -599,23 +637,21 @@
     { "id": "e2", "concept": "Hotel Up Recoleta (1 noche)", "category": "accommodation", "amount": 58.81, "currency": "USD", "paidBy": "Agustín", "method": "Reservado, paga en lugar", "status": "pending_onsite", "relatedEvent": "a1" },
     { "id": "e3", "concept": "Vuelo BsAs → Londres (KLM ida y vuelta)", "category": "flight", "amount": 0, "currency": "USD", "paidBy": "Agustín", "method": "Pago anterior", "status": "paid", "relatedEvent": "f2", "notes": "Tickets ya emitidos" },
     { "id": "e4", "concept": "Airbnb Londres (5 noches)", "category": "accommodation", "amount": 949.63, "currency": "USD", "paidBy": "Agustín", "method": "Tarjeta, cobro 20 may", "status": "pending", "relatedEvent": "a2" },
-    { "id": "e5", "concept": "Tren Londres → Edimburgo (LNER)", "category": "transport", "amount": 173, "currency": "USD", "paidBy": "—", "method": "Por comprar", "status": "pending", "relatedEvent": "t1" },
-    { "id": "e6", "concept": "Tren Edimburgo → Perth (ScotRail)", "category": "transport", "amount": 30, "currency": "USD", "paidBy": "—", "method": "Por comprar", "status": "pending", "relatedEvent": "t1" },
-    { "id": "e7", "concept": "Tren Perth → Edimburgo (ScotRail)", "category": "transport", "amount": 30, "currency": "USD", "paidBy": "—", "method": "Por comprar", "status": "pending", "relatedEvent": "t2" },
-    { "id": "e8", "concept": "Vuelo Edimburgo → Copenhague (Ryanair)", "category": "flight", "amount": 284, "currency": "USD", "paidBy": "Agustín", "method": "Mercado Pago (Nati transfirió)", "status": "paid", "relatedEvent": "f3" },
-    { "id": "e9", "concept": "Airbnb Copenhague (2 noches)", "category": "accommodation", "amount": 355, "currency": "USD", "paidBy": "Agustín", "method": "Reservado, paga en lugar", "status": "pending_onsite", "relatedEvent": "a4" },
-    { "id": "e10", "concept": "Vuelo Copenhague → Londres (Ryanair)", "category": "flight", "amount": 238.80, "currency": "USD", "paidBy": "Agustín", "method": "Mercado Pago (Nati transfirió)", "status": "paid", "relatedEvent": "f4" },
-    { "id": "e11", "concept": "Holiday Inn Heathrow (2 noches)", "category": "accommodation", "amount": 513000, "currency": "ARS", "paidBy": "Agustín", "method": "Naranja X, paga en lugar", "status": "pending_onsite", "relatedEvent": "a5" },
-    { "id": "e12", "concept": "Airbnb BsAs última noche", "category": "accommodation", "amount": 43.29, "currency": "USD", "paidBy": "Natali", "method": "Por coordinar", "status": "pending", "relatedEvent": "a6" }
+    { "id": "e5", "concept": "Tren Londres → Perth (LNER + ScotRail)", "category": "transport", "amount": 318.32, "currency": "USD", "paidBy": "Agustín", "method": "Visa *9631 vía Trainline", "status": "paid", "relatedEvent": "t1", "notes": "2× Super Off-Peak Single · Transacción 281635617609" },
+    { "id": "e6", "concept": "Tren Perth → Edimburgo (ScotRail)", "category": "transport", "amount": 30, "currency": "USD", "paidBy": "—", "method": "Por comprar", "status": "pending", "relatedEvent": "t2" },
+    { "id": "e7", "concept": "Vuelo Edimburgo → Copenhague (Ryanair)", "category": "flight", "amount": 284, "currency": "USD", "paidBy": "Agustín", "method": "Mercado Pago (Nati transfirió)", "status": "paid", "relatedEvent": "f3" },
+    { "id": "e8", "concept": "Airbnb Copenhague (2 noches)", "category": "accommodation", "amount": 355, "currency": "USD", "paidBy": "Agustín", "method": "Reservado, paga en lugar", "status": "pending_onsite", "relatedEvent": "a4" },
+    { "id": "e9", "concept": "Vuelo Copenhague → Londres (Ryanair)", "category": "flight", "amount": 238.80, "currency": "USD", "paidBy": "Agustín", "method": "Mercado Pago (Nati transfirió)", "status": "paid", "relatedEvent": "f4" },
+    { "id": "e10", "concept": "Holiday Inn Heathrow (2 noches)", "category": "accommodation", "amount": 513000, "currency": "ARS", "paidBy": "Agustín", "method": "Naranja X, paga en lugar", "status": "pending_onsite", "relatedEvent": "a5" },
+    { "id": "e11", "concept": "Airbnb BsAs última noche", "category": "accommodation", "amount": 43.29, "currency": "USD", "paidBy": "Natali", "method": "Por coordinar", "status": "pending", "relatedEvent": "a6" }
   ],
   "summary": {
     "totals": [
       { "concept": "Vuelo Córdoba-BsAs (JetSmart ida y vuelta)", "amount": "$343.469 ARS", "paid": "Natali / Naranja X" },
       { "concept": "Hotel Up Recoleta (1 noche)", "amount": "US$58,81", "paid": "Reservó Agus, paga en lugar" },
       { "concept": "Airbnb Londres (5 noches)", "amount": "$949,63 USD", "paid": "Reservó Agus, paga 20 may" },
-      { "concept": "Tren Londres-Edimburgo", "amount": "$173 USD", "paid": "Pendiente" },
-      { "concept": "Tren Edimburgo-Perth", "amount": "$30 USD", "paid": "Pendiente" },
-      { "concept": "Tren Perth-Edimburgo", "amount": "$30 USD", "paid": "Pendiente" },
+      { "concept": "Tren Londres → Perth (LNER + ScotRail)", "amount": "$318,32 USD", "paid": "Agustín / Trainline Visa *9631" },
+      { "concept": "Tren Perth → Edimburgo (ScotRail)", "amount": "$30 USD", "paid": "Pendiente" },
       { "concept": "Vuelo Edimburgo-Copenhague", "amount": "$284 USD", "paid": "Agus (Mercado Pago)" },
       { "concept": "Airbnb Copenhague (2 noches)", "amount": "$355 USD", "paid": "Reservó Agus, paga en lugar" },
       { "concept": "Vuelo Copenhague-Londres", "amount": "$238,80 USD", "paid": "Agus (Mercado Pago)" },
